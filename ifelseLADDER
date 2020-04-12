@@ -1,0 +1,15 @@
+class prac2{
+	public static void main(String args[]) {
+		System.out.println("Getting to know your grade .");
+		int marks=79;
+		if(marks > 90) {
+			System.out.println("Distinction");
+			
+		}else if((marks >70)&& (marks<90)){
+			System.out.println("above 70");
+			
+		}else {
+			System.out.println("below 71");
+		}
+	}
+}
