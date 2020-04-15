@@ -1,0 +1,19 @@
+class prac2{
+	public static void main(String args[]) {
+		System.out.println("Using nested switch case");
+		String levelstring="Expert";
+		int level=0;
+		switch(levelstring) {
+		case "Beginner":level=1;
+		break;
+		case "Medium":level=2;
+		break;
+		case "Expert":level=3;
+		break;
+		}
+			System.out.println("Print level");
+			System.out.println(level);
+		
+		
+	}
+}
