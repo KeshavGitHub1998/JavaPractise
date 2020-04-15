@@ -1,0 +1,24 @@
+class prac2{
+	public static void main(String args[]) {
+		System.out.println("Nested switch program");
+		char branch='c';
+		int year=4;
+		switch(year) {
+		case 1:
+			System.out.println("English , Science , Maths");
+			break;
+			
+		case 4:
+			switch(branch) {
+			case 'a':
+				System.out.println("A branch");
+			case 'c':
+				System.out.println("C branch");
+				break;
+			}
+			System.out.println("Over");
+		}
+		
+		
+	}
+}
